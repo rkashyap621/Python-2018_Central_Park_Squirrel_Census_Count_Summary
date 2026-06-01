@@ -22,4 +22,4 @@ squirrel_count = [gray_fur_squirrel_num, cinnamon_fur_squirrel_num, black_fur_sq
 squirrel_dict= {"Fur Color": ["Gray", "Cinnamon", "Black", "Unknown"],
                 "Count": squirrel_count}
 
-pd.DataFrame(squirrel_dict).to_csv('./Output/squirrel_census_summary.csv', index = False)
+pd.DataFrame(squirrel_dict).to_csv('./Output/squirrel_census_count_summary.csv', index = False)
